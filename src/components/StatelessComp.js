@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const StatelessComp = () => {
     return(
-        <div>
-            This is a stateless functional Component!
-        </div>
+        <Fragment>
+            This is a statelss functional component.
+        </Fragment>
     )
 }
 
