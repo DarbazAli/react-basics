@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import StatelessComp from "./components/StatelessComp";
 
 
 const App = () => {
@@ -14,6 +15,9 @@ const App = () => {
         <h3>New Element</h3>
         <h3>Another JSX element</h3>
       </div>
+
+      {/* Put the compontent inside here */}
+      <StatelessComp />
     </div>
   );
 };
