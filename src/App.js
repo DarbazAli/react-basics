@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import StatelessComp from "./components/StatelessComp";
+import ReactComp from "./components/ReactComp";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
 
       {/* Put the compontent inside here */}
       <StatelessComp />
+      <ReactComp />
     </div>
   );
 };
