@@ -4,6 +4,7 @@ import StatelessComp from "./components/StatelessComp";
 import ReactComp from "./components/ReactComp";
 import CampSite from "./components/CompReview";
 import StatefulComp from "./components/StatefulComp";
+import ToggleState from "./components/ToggleState";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <ReactComp />
       <CampSite />
       <StatefulComp />
+      <ToggleState />
     </div>
   );
 };
