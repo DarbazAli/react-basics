@@ -1,30 +1,31 @@
+'use strict'
+
 import React from 'react'
 import PropTypes from 'prop-types';
-
 const Camper = ({name}) => {
-    return(
-        <div>
-            <h1>Hello {name}</h1>
-        </div>
-    )
-}
-const CompReview = () => {
     return (
         <div>
-            <Camper/>
+            <h3>Hello {name}</h3>
+        </div>
+    )
+}
+const CampSite = () => {
+    return (
+        <div>
+            <Camper 
+                name='Darbaz'
+            />
         </div>
     )
 }
 
 
-// Defautl prop for Camper
 Camper.defaultProps = {
     name: 'CamperBot'
 }
 
-// Prop Validation for Camper
 Camper.propTypes = {
     name: PropTypes.string.isRequired
 }
 
-export default CompReview
+export default CampSite
