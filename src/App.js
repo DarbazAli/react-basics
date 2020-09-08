@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import StatelessComp from "./components/StatelessComp";
 import ReactComp from "./components/ReactComp";
 import CampSite from "./components/CompReview";
+import StatefulComp from "./components/StatefulComp";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <StatelessComp />
       <ReactComp />
       <CampSite />
+      <StatefulComp />
     </div>
   );
 };

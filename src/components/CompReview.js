@@ -13,7 +13,7 @@ const CampSite = () => {
     return (
         <div>
             <Camper 
-                name='Darbaz'
+                // name='Darbaz'
             />
         </div>
     )
