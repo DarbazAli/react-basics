@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import StatelessComp from "./components/StatelessComp";
 import ReactComp from "./components/ReactComp";
+import CompReview from "./components/CompReview";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       {/* Put the compontent inside here */}
       <StatelessComp />
       <ReactComp />
+      <CompReview />
     </div>
   );
 };
