@@ -5,27 +5,29 @@ import ReactComp from "./components/ReactComp";
 import CampSite from "./components/CompReview";
 import StatefulComp from "./components/StatefulComp";
 import ToggleState from "./components/ToggleState";
+import Counter from "./components/Counter";
 
 
 const App = () => {
   return (
     <div>
       {/* Simple JSX ELEMENT */}
-      <h1>Hello JSX!</h1>
+      {/* <h1>Hello JSX!</h1> */}
 
       {/* more complext JSX element */}
       {/* JSX should return one single element */}
-      <div>
+      {/* <div>
         <h3>New Element</h3>
         <h3>Another JSX element</h3>
-      </div>
+      </div> */}
 
       {/* Put the compontent inside here */}
-      <StatelessComp />
+      {/* <StatelessComp />
       <ReactComp />
       <CampSite />
       <StatefulComp />
-      <ToggleState />
+      <ToggleState /> */}
+      <Counter />
     </div>
   );
 };
