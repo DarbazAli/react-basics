@@ -6,6 +6,7 @@ import CampSite from "./components/CompReview";
 import StatefulComp from "./components/StatefulComp";
 import ToggleState from "./components/ToggleState";
 import Counter from "./components/Counter";
+import CounterWithHook from "./components/CounterWithHook";
 
 
 const App = () => {
@@ -27,7 +28,8 @@ const App = () => {
       <CampSite />
       <StatefulComp />
       <ToggleState /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <CounterWithHook />
     </div>
   );
 };
