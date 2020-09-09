@@ -1,3 +1,7 @@
+
+
+
+
 import React, { useState } from 'react'
 
 const CounterWithHook = () => {
@@ -7,7 +11,7 @@ const CounterWithHook = () => {
     return (
         <div>
             <h4>React Counter with Hooks</h4>
-            
+
             <h1><b>{count}</b></h1>
 
             <button className="button-primary" onClick={() => setCount(count - 1)}>-</button>
@@ -18,4 +22,3 @@ const CounterWithHook = () => {
 }
 
 export default CounterWithHook
-
