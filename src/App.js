@@ -8,6 +8,7 @@ import ToggleState from "./components/ToggleState";
 import Counter from "./components/Counter";
 import CounterWithHook from "./components/CounterWithHook";
 import ControlledInput from "./components/ControlledInput";
+import ControlledInputHooks from "./components/ControlledInputHooks";
 
 
 const App = () => {
@@ -31,7 +32,8 @@ const App = () => {
       <ToggleState /> */}
       {/* <Counter /> */}
       {/* <CounterWithHook /> */}
-      <ControlledInput />
+      {/* <ControlledInput /> */}
+      <ControlledInputHooks />
     </div>
   );
 };
