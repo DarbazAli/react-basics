@@ -7,6 +7,7 @@ import StatefulComp from "./components/StatefulComp";
 import ToggleState from "./components/ToggleState";
 import Counter from "./components/Counter";
 import CounterWithHook from "./components/CounterWithHook";
+import ControlledInput from "./components/ControlledInput";
 
 
 const App = () => {
@@ -29,7 +30,8 @@ const App = () => {
       <StatefulComp />
       <ToggleState /> */}
       {/* <Counter /> */}
-      <CounterWithHook />
+      {/* <CounterWithHook /> */}
+      <ControlledInput />
     </div>
   );
 };
