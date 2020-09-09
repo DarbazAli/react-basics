@@ -26,10 +26,10 @@ export default class Counter extends Component {
     render() {
         return (
             <div>
-                Count: {this.state.count}
-                <button onClick={this.handleDec}>-</button>
-                <button onClick={this.reset}>RESET</button>
-                <button onClick={this.handleInc}>+</button>
+                <p>Count: {this.state.count}</p>
+                <button className="button-primary" onClick={this.handleDec}>-</button>
+                <button className="button-primary" onClick={this.reset}>RESET</button>
+                <button className="button-primary" onClick={this.handleInc}>+</button>
             </div>
         )
     }
