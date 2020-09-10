@@ -9,6 +9,7 @@ import Counter from "./components/Counter";
 import CounterWithHook from "./components/CounterWithHook";
 import ControlledInput from "./components/ControlledInput";
 import ControlledInputHooks from "./components/ControlledInputHooks";
+import ControlledFrom from "./components/ControlledFrom";
 
 
 const App = () => {
@@ -33,7 +34,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <CounterWithHook /> */}
       {/* <ControlledInput /> */}
-      <ControlledInputHooks />
+      {/* <ControlledInputHooks /> */}
+      <ControlledFrom />
     </div>
   );
 };
