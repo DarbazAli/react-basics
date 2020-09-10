@@ -1,18 +1,19 @@
-import React, {useState} from 'react'
+import React, { useState } from "react";
 
 const ControlledInputHooks = () => {
-    const [input, setInput] = useState('enter text here');
+  const [input, setInput] = useState("Enter text..");
+  return (
+    <div>
+      <h3>{input}</h3>
+      <label htmlFor="input">Enter some text</label>
+      <input
+        type="text"
+        value={input}
+        id="input"
+        onChange={(e) => setInput(e.target.value)}
+      ></input>
+    </div>
+  );
+};
 
-    const handleChange = e => {
-        setInput(e.target.value)
-    }
-    return (
-        <div>
-            <h3>{input}</h3>
-            <label htmlFor="input">Enter some text</label>
-            <input type="text" id="input" onChange={handleChange}></input>
-        </div>
-    )
-}
-
-export default ControlledInputHooks
+export default ControlledInputHooks;
